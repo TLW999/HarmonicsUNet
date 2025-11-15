@@ -232,3 +232,4 @@ if "__main__" == __name__:
               wandb_project=project, remove_imbalance=False, remove_imbalance_threshold=460, k_fold=True,
               official=False, save_total_limit=1, log_sample=False, sr=16000, output_dir="./ScEncode",k_fold_num=5)
     t.train()
+
